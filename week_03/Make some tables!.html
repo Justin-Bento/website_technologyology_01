@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<title>Make some tables!</title>
+<meta name="description" content="Lesson on making tables.">
+</head>
+<body>
+
+  <div class="header">
+    <h1>Tables!</h1>
+    <h2>Lets make some tables!</h2>
+  </div>
+
+  <div class="content">
+
+    <!-- This is commented out code, its like putting notes in your code! -->
+
+    <table width="100%" cellspacing="1" cellpadding="3" border="1"> <!--Starts the table-->
+        
+        <tbody><tr align="left"> <!--Starts the table row (TR= Table Row)-->
+            <th>Table Heading 1</th> <!--Table heading (th=table heading)-->
+            <th>Table Heading 2</th>
+            <th>Table Heading 3</th>
+            <th>Table Heading 4</th>
+            <th>Table Heading 5</th>
+        </tr>
+
+        <tr>
+            <td>Info 1</td>
+            <td>Info 1</td>
+            <td>Info 1</td>
+            <td>Info 1</td>
+            <td>Info 1</td>
+
+        </tr>
+
+        <tr>
+            <td>info 2</td>
+            <td>info 2</td>
+            <td>info 2</td>
+            <td>info 2</td>
+            <td>info 2</td>
+        </tr>
+
+        <tr>
+            <td colspan="5" align="center">Contact us today fam!</td>
+        </tr>
+
+    </tbody></table> <!-- Ends the table --> 
+    </div> <!-- Ends the div -->
+
+<br> <!--Break Tag (Makes a space)-->
+
+  <div class="content2">
+
+    <h1>Forms!</h1>
+
+    <h2>Input Text</h2>
+    <form action="/action_page.php"> <!-- Starts any form -->
+        First name:
+        <br>
+        <input type="text" name="firstname" value="Mickey">
+        <br>
+        Last name:
+        <br>
+        <input type="text" name="lastname" value="Mouse">
+        <br>
+        <input type="submit" value="Submit">
+    </form> 
+
+    <br> <!--Break Tag (Makes a space)-->
+
+    <h2>Text Area</h2>
+    <textarea>    Check out this cool text box!
+            
+    you can type all kinds of stuff in here.
+    </textarea>
+    
+    <br> <!--Break Tag (Makes a space)-->
+
+    <h2>Radio Buttons</h2>
+    <form action="">
+        <input type="radio" name="car" value="Lambo"> Lambo
+        <input type="radio" name="car" value="Bugatti"> Bugatti
+        <input type="radio" name="car" value="Pagani"> Pagani
+    </form>
+       
+    <br> <!--Break Tag (Makes a space)-->
+
+    <h2>Check boxes</h2>
+    <form action="/action_page.php">
+        <input type="checkbox" name="vehicle1" value="Bike">I have a bike
+        <input type="checkbox" name="vehicle2" value="Car">I have a car 
+    </form> 
+
+    <br> <!--Break Tag (Makes a space)-->
+        
+    <h2>Select List</h2>
+    <form action="/action_page.php">
+        <select name="cars">
+          <option value="volvo" selected="selected">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="audi">Audi</option>
+        </select>
+      </form>
+      
+  </div> <!-- Closes the content div -->
+
+  <div class="footer">
+      © 2018 Mysite.com
+  </div>
+
+
+</body></html>
