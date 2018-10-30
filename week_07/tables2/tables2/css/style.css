@@ -1,0 +1,78 @@
+/* Base table style */
+.tbl {
+    width: 500px;
+    border: 2px solid;
+    border-color: #222;
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+
+.tbl td {
+    border: 2px solid;
+    border-color: #222;
+}
+
+/* Red table style */
+.tbl--red {
+    border-color: red;
+}
+
+.tbl--red td {
+    border-color: red;
+}
+
+/* Blue table style */
+.tbl--blue {
+    border-color: blue;
+}
+
+.tbl--blue td {
+    border-color: blue;
+}
+
+/* orange table style */
+.tbl--orange {
+    border-color: orange;
+}
+
+.tbl--orange td {
+    border-color: orange;
+}
+
+#box {
+    margin-top: 2000px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 5px dashed;
+    border-color: #000;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    margin: 0;
+    height: 70px;
+    background-color: #222;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 15px 10px 0 0;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.nav ul li a:hover {
+    color: red;
+}
